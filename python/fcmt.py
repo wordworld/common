@@ -5,7 +5,6 @@
 ##!    
 ##!    包含类Tag Lang{ Text: Cplus Shell Python Lua VimL }。实现向以上语言的代码文件插入自动化注释（行、文件头、函数、类等）功能
 ##!  @file	fcmt.py
-##!  @path	prj/python/module
 ##!  @author	Fstone's ComMent Tool
 ##!  @date	2016-09-09
 ##!  @version	0.1.0
@@ -95,7 +94,7 @@ class Lang:
 	class Text:
 		'普通文本'
 		# 已选的标签
-		tag_file 	= [ BRIEF, DETAIL, DETAIL, FILE, PATH, AUTHOR, DATE, VERSION ]
+		tag_file 	= [ BRIEF, DETAIL, DETAIL, FILE, AUTHOR, DATE, VERSION ]
 		tag_class 	= [ BRIEF, DETAIL, DETAIL ]
 		tag_function 	= [ BRIEF, DETAIL, DETAIL, PARAM, RETURN ]
 		# 标识符      _/字母    字母/数字
