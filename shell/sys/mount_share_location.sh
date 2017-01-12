@@ -1,4 +1,13 @@
 #!/usr/bin/bash
+############################################################
+##!  @brief	挂载 windows 共享目录
+##!  
+##!  
+##!  @file	mount_share_location.sh
+##!  @author	fstone.zh@foxmail.com
+##!  @date	2017-01-12
+##!  @version	0.1.0
+############################################################
 
 # 挂载点
 mnt_point="$HOME/mnt"

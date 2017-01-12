@@ -1,4 +1,13 @@
 #!/bin/bash
+############################################################
+##!  @brief	挂载 windows 硬盘分区，创建外转内快捷方式
+##!  
+##!  
+##!  @file	mount.sh
+##!  @author	fstone.zh@foxmail.com
+##!  @date	2017-01-12
+##!  @version	0.1.0
+############################################################
 
 `finclude $0 mount_share_location.sh`
 
